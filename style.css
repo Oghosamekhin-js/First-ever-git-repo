@@ -1,0 +1,316 @@
+/* REGULAR DESKTOP SCREEN (1366) */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    padding: 1rem;
+}
+
+nav ul .lis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    width: 70%;
+    padding-left: 25rem;
+    margin-top: -2.9rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: rgb(42, 118, 195);
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+.con{
+    border: 1px solid black;
+    padding: 0.5rem 1.5rem;
+}
+
+.con:hover{
+    border: 1px solid rgb(42, 118, 195);
+    padding: 0.5rem 1.5rem;
+    color: rgb(42, 118, 195);
+}
+
+.burger{
+    display: none;
+}
+
+.safer{
+    background: rgb(241, 241, 241);
+    display: flex;
+    padding: 5rem 0 0 2rem;
+    flex-wrap: wrap;
+}
+
+.safer-a{
+   flex: 1 1 12rem;
+   padding-left: 2rem;
+   padding-top: 2rem;
+}
+
+.safer-a h1{
+    font-size: 3rem; 
+    line-height: 72px;
+}
+
+.safer-ai{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.safer-ai button{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.safer-b{
+    flex: 4 1 20rem;
+    width: 100%;
+}
+
+.trusted p{
+    padding-left: 2.9rem;
+}
+
+.trusted{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5rem 2rem 0 2rem;
+}
+
+.trusteda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seamless{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.seamless-text p{
+    padding: 2rem;
+}
+
+.build{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0 0 5rem;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.build-text{
+    flex: 1 1 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 5rem;
+    justify-content: center;
+ }
+
+ .build-text p{
+    padding: 2rem 0;
+    line-height: 20px;
+ }
+
+ .build-text h1{
+    line-height: 3rem;
+ }
+
+.build-clip{
+   flex: 3 1 20rem;
+   width: 100%;
+}
+
+.plaid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 400px;
+    padding: 10rem 0;
+}
+
+.plaid-a p{
+    padding: 2rem;
+    line-height: 24px;
+}
+
+.plaid-b .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid darkgray;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: rgb(251, 251, 251);
+}
+
+.plaid-b p{
+    padding: 1rem 0;
+}
+
+.plaid-b{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.future{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    flex: 1 1 10rem;
+}
+
+.future-a p, .future-b p, .future-c p{
+    line-height: 23px;
+    padding: 1rem 0;
+    font-size: 15px;
+}
+
+.power{
+    padding: 10rem 1rem 2rem 1rem;
+}
+
+section.power h1{
+    line-height: 3rem;
+}
+
+.power-a{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.power-a p{
+    line-height: 23px;
+    padding: 1rem 0;
+    font-size: 15px;
+}
+
+.power h1{
+    font-size: 45px;
+    line-height: 23px;
+    padding: 0 0 2rem 4.5rem;
+}
+
+.for{
+    padding: 10rem 0 2rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.for-a{
+    flex: 1 1 10rem;
+}
+
+.for-b{
+    flex: 1 1 10rem;
+}
+
+.for-a p, h1, h3{
+    line-height: 25px;
+    padding: 1rem 0;
+}
+
+footer{
+    height: auto;
+    background-color: #111;
+    padding: 5rem;
+    margin-top: 5rem;
+    color: white;
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.foot1b{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.foot1b button{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.contact{
+    background-color: #111;
+    color: white;
+    border: 1px solid white;
+}
+
+.ft p{
+    line-height: 30px;
+    font-size: 13px;
+    color: darkgray;
+}
+
+.ft{
+    border-top: 1px solid white;
+}
+
+.foot2{
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foot3{
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foot3b{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 20%;
+    padding-bottom: 2rem;
+}
+
+.foot4{
+    padding: 1rem 4rem;
+}
